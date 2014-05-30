@@ -1,10 +1,11 @@
-title:            Lingfeng's Blog
-description:      101s and notes for dummies just like me.
+title:            saidz's Blog
+description:      I think therefore I am
 #logo:             site-logo.jpg
-disqus_shortname: lingfengsblog
+disqus_shortname: saidzsblog
 search:           true
 # Change url to your domain. Leave localhost server or blank when working locally.
-url:              http://hanxiaomax.github.io
+url:              http://saidz.github.io
+#url:              http://t:4000
 
 # Owner/author information
 owner:
@@ -14,7 +15,7 @@ owner:
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
-  github:         hanxiaomax
+  github:         https://github.com/saidz
   stackexchange:  
   linkedin:       
   instagram:      
@@ -49,14 +50,15 @@ links:
   - title: other
     url: /other/
   - title: 新浪微博
-    url: http://weibo.com/smilingly1989
+    url: http://weibo.com/u/1155679685
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Chongqing
+timezone:    CN/Shanghai
 future:      true
 pygments:    true
 markdown:    kramdown
+#markdown:    rdiscount
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title/
