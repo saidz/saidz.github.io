@@ -1,17 +1,17 @@
-title:            saidz's Blog
+title:            Saidz's Blog
 description:      I think therefore I am
 #logo:             site-logo.jpg
 disqus_shortname: saidzsblog
 search:           true
 # Change url to your domain. Leave localhost server or blank when working locally.
-url:              http://saidz.github.io
-#url:              http://t:4000
+#url:              http://saidz.github.io
+url:              http://t:4000
 
 # Owner/author information
 owner:
-  name:           feng
+  name:           zyx
   avatar:         bio-photo.jpg
-  email:          hanxiaomax@qq.com
+  email:          zyx.zhuyuxiang@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
@@ -28,7 +28,7 @@ owner:
 analytics :
   provider : google 
   google : 
-      tracking_id : 'UA-48815860-1'
+      tracking_id : 'UA-51505545-1'
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
 
@@ -37,16 +37,10 @@ bing_verify:
 links:
   - title: About
     url: /about/
-  - title: Python
-    url: /Python/
-  - title: MALTAB
-    url: /MATLAB/  
-  - title: Etymology
-    url: /etymology/
   - title: C/C++
     url: /cpp/
-  - title: C51
-    url: /c51/
+  - title: JS
+    url: /js/
   - title: other
     url: /other/
   - title: 新浪微博
@@ -57,8 +51,8 @@ links:
 timezone:    CN/Shanghai
 future:      true
 pygments:    true
-markdown:    kramdown
-#markdown:    rdiscount
+#markdown:    kramdown
+markdown:    rdiscount
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title/
