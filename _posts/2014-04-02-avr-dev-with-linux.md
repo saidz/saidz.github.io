@@ -10,6 +10,8 @@ comments: true
 share: true
 ---
 
+***非原创***
+
 ###配置avr-gcc以及相关工具  
 1.`$sudo apt-get install gcc-avr` 安装avr-gcc  
 2.`$avr-gcc -v` 查看版本，如果版本低于4.6，请看[这里]  
