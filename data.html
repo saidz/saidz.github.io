@@ -1,0 +1,42 @@
+---
+layout: page
+title:  分类列表
+description: "分类"
+---
+
+<ul class="post-list">
+{% for post in site.categories.cpp %} 
+  <li>
+    <article>
+      <a href="{{ site.url }}{{ post.url }}">
+        {{ post.title }} 
+        <span class="entry-date">
+          <time datetime="{{ post.date | date_to_xmlschema }}">
+            {{ post.date | date: "%B %d, %Y" }}
+          </time>
+        </span>
+      </a>
+    </article>
+  </li>
+{% endfor %}
+</ul>
+<ul>
+{% for track in site.data.tracks %}
+  <li>
+    <a href="https://github.com/{{ track.id }}">
+      {{ track.title }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+
+<ul>
+{% for member in site.data.members %}
+  <li>
+    <a href="https://github.com/{{ member.github }}">
+      {{ member.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<ul>
