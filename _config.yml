@@ -53,7 +53,8 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    CN/Shanghai
 future:      true
-pygments:    true
+pygments:    highlighter
+#highlighter:    true
 #markdown:    kramdown
 markdown:    rdiscount
 
